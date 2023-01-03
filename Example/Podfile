@@ -1,0 +1,12 @@
+
+platform :ios, '11.0'
+
+target 'UniMPSDK_Example' do
+  pod 'UniMPSDK', :path => '../'
+
+  target 'UniMPSDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

@@ -1,0 +1,6 @@
+framework module UniSensorsAnalyticsModule {
+  umbrella header "UniSensorsAnalyticsModule.h"
+
+  export *
+  module * { export * }
+}
