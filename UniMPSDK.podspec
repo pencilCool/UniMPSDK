@@ -64,4 +64,5 @@ TODO: Add long description of the pod here.
   s.resources = ["UniMPSDK/Core/Resources/*.js", "UniMPSDK/Core/Resources/*.ttf", "UniMPSDK/Core/Resources/*.bundle"]
   s.dependency 'ijkplayerssl'
   s.dependency 'Masonry'
+  s.dependency 'SDWebImage'
 end

@@ -208,6 +208,7 @@
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				A06B437CAA7EE02DCB7B23AF /* [CP] Copy Pods Resources */,
+				DB39D1E4238E8239A4F529BE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -352,6 +353,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UniMPSDK_Example/Pods-UniMPSDK_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB39D1E4238E8239A4F529BE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UniMPSDK_Example/Pods-UniMPSDK_Example-frameworks.sh",
+				"${PODS_ROOT}/../../UniMPSDK/Features/Libs/SensorsAnalyticsSDK.framework",
+				"${PODS_ROOT}/../../UniMPSDK/Features/Libs/SensorsFocus.framework",
+				"${PODS_ROOT}/ijkplayerssl/IJKMediaFrameworkWithSSL.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SensorsAnalyticsSDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SensorsFocus.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IJKMediaFrameworkWithSSL.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UniMPSDK_Example/Pods-UniMPSDK_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FC9F9FBE8D92AC42BF73FD50 /* [CP] Check Pods Manifest.lock */ = {

@@ -1,25 +1,57 @@
 PODS:
+  - ijkplayerssl (1.1.4)
+  - Masonry (1.1.0)
+  - SDWebImage (5.13.5):
+    - SDWebImage/Core (= 5.13.5)
+  - SDWebImage/Core (5.13.5)
   - UniMPSDK (3.6.4):
+    - ijkplayerssl
+    - Masonry
+    - SDWebImage
     - UniMPSDK/Core (= 3.6.4)
     - UniMPSDK/Features (= 3.6.4)
   - UniMPSDK/Core (3.6.4):
+    - ijkplayerssl
+    - Masonry
+    - SDWebImage
     - UniMPSDK/Core/Headers (= 3.6.4)
     - UniMPSDK/Core/Libs (= 3.6.4)
   - UniMPSDK/Core/Headers (3.6.4):
+    - ijkplayerssl
+    - Masonry
+    - SDWebImage
     - UniMPSDK/Core/Headers/weexHeader (= 3.6.4)
-  - UniMPSDK/Core/Headers/weexHeader (3.6.4)
-  - UniMPSDK/Core/Libs (3.6.4)
-  - UniMPSDK/Features (3.6.4)
+  - UniMPSDK/Core/Headers/weexHeader (3.6.4):
+    - ijkplayerssl
+    - Masonry
+    - SDWebImage
+  - UniMPSDK/Core/Libs (3.6.4):
+    - ijkplayerssl
+    - Masonry
+    - SDWebImage
+  - UniMPSDK/Features (3.6.4):
+    - ijkplayerssl
+    - Masonry
+    - SDWebImage
 
 DEPENDENCIES:
   - UniMPSDK (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - ijkplayerssl
+    - Masonry
+    - SDWebImage
 
 EXTERNAL SOURCES:
   UniMPSDK:
     :path: "../"
 
 SPEC CHECKSUMS:
-  UniMPSDK: e61c838dff854f1241b6bb5ef073d295bf5c24e8
+  ijkplayerssl: 595307d7d3ca305450d22af27cd638c659fa988d
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  SDWebImage: 23d714cd599354ee7906dbae26dff89b421c4370
+  UniMPSDK: 19c08ebef328014977b91187075cd61c86a86dbc
 
 PODFILE CHECKSUM: c89cf11f79ffd3634f78f9b92fe610818d6f0580
 
